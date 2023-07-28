@@ -10,7 +10,6 @@ def find_replace(file_path, replacements):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
 
-# Usage example
 file_path = glob.glob('S_Sekundar_*.xml')[0]
 
 replacements = {
